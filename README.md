@@ -1,0 +1,2 @@
+# Embedded-EEG-Signal-Acquisition-Terminal-Based-Visualization-on-Raspberry-Pi
+This project captures and visualizes real-time EEG signals from the ADS1299 analog front-end using a Raspberry Pi 4, with no internet and no external libraries.  EEG data from 8 channels is streamed over SPI, triggered by a GPIO interrupt, and visualized directly in the terminal using ASCII bar graphs — ideal for SSH or headless environments.
